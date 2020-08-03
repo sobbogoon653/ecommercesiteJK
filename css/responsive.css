@@ -1,0 +1,75 @@
+/* --------------------- Max Width 1199 px Responsive Css -------------------- */
+@media only screen and (max-width: 1199px) {
+  .card_subscriber {
+    width: 323px;
+    margin: 0 0 0 60px;
+  }
+  .card_subscriber .card-body a {
+    width: 100%;
+}.popular .popular_text h5 {    margin: -22px 0px 26px 220px;}
+}
+/* --------------------- Max Width 991 px Responsive Css -------------------- */
+@media only screen and (max-width: 991px) {
+    .icon_wrapper {
+        display: block;
+    }
+   .card_subscriber {
+      width: 300px;
+      margin: 0 0 0 4px;
+  }.popular .popular_text h5 {    margin: -23px 0px 26px 193px;}
+  }
+/* --------------------- Max Width 768 px Responsive Css -------------------- */
+@media only screen and (max-width: 768px) {
+  .card {
+    display: block;
+    margin: 15px auto;
+}
+}
+/* --------------------- Max Width 767 px Responsive Css -------------------- */
+@media only screen and (max-width: 767px) {
+  .card_subscriber {
+    width: 243px;
+    margin: 0 0 0 4px;
+  }.popular .popular_text h5 {    margin: -23px 0px 26px 138px;}
+}
+/* --------------------- Max Width 575 px Responsive Css -------------------- */
+@media only screen and (max-width: 575px) {
+  .card_subscriber {
+    width: 322px;
+    margin: 0% 0% 0% 21%;
+}.popular .popular_text h5 {    margin: -23px 0px 26px 216px;}
+}
+/* --------------------- Max Width 530 px Responsive Css -------------------- */
+@media only screen and (max-width: 530px) {
+  .card_subscriber {
+    margin: 0% 0% 0% 16%;
+}
+}
+/* --------------------- Max Width 460 px Responsive Css -------------------- */
+@media only screen and (max-width: 460px) {
+  .card_subscriber {
+    margin: 0% 0% 0% 12%;
+}
+}
+/* --------------------- Max Width 420 px Responsive Css -------------------- */
+@media only screen and (max-width: 420px) {
+  .card_subscriber {
+    margin: 0% 0% 0% 9%;
+}
+}
+/* --------------------- Max Width 382 px Responsive Css -------------------- */
+@media only screen and (max-width: 382px) {
+.card_subscriber {
+  width: 270px;
+  margin: 0% 0% 0% 9%;
+}.popular .popular_text h5 {    margin: -23px 0px 26px 162px;}
+}
+/* --------------------- Max Width 338 px Responsive Css -------------------- */
+@media only screen and (max-width: 338px) {
+  .card_subscriber {
+    margin: 0% 0% 0% 5%;
+  }
+  }
+
+
+

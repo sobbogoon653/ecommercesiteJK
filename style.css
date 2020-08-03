@@ -1,0 +1,827 @@
+/*
+Theme Name: Best Youtube Promotion .
+Theme URI: 
+Author: Jakaria
+Author URI: https://www.bestyoutubepromotion.org
+Description: Best Youtube Promotion Site.
+Version: 1.0
+
+Tags: one-column, two-columns, right-sidebar, flexible-header, accessibility-ready, custom-colors, custom-header, custom-menu, custom-logo, editor-style, featured-images, footer-widgets, post-formats, rtl-language-support, sticky-post, theme-options, threaded-comments, translation-ready
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+
+/* ------------------------------ Font Link Add ----------------------------- */
+
+
+/* -------------------------------- Basic Css ------------------------------- */
+
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    scroll-behavior: smooth;
+}
+/* ---------------------------- HOME PAGE CSS Start --------------------------- */
+
+/* -------------------------------- Logo css -------------------------------- */
+
+.logo_section {
+    width: 100%;
+    height: 170px;
+    background: linear-gradient(180deg, #0b3f6b 78%, #071f44 );
+}
+
+.logo a:hover{
+    text-decoration: none;
+    color:none;
+}
+.logo img{
+    width: 310px;
+    height: 146px;
+}
+.woocommerce img, .woocommerce-page img {
+    max-width: 310px;
+}
+
+.cart_social a{
+    text-align: right;
+    display: block;
+    color: #1BC51B;
+    font-size: 29px;
+    margin-top: 86px;
+    position:relative;	
+}
+.cart_social a span {
+    font-size: 16px;
+    margin: -2px 0 0 -11px;
+    background: #8c1313;
+    border-radius: 50%;
+    padding: 1px 7px 6px 4px;
+    width: 25px;
+    height: 25px;
+    color: #fff;
+    position: absolute;
+}
+/* --------------------------------- Nav css -------------------------------- */
+.nav_section{
+    width:100%;
+    height:64px;
+    background:#009F73;
+    border-bottom: 4px solid #014397;
+}
+
+.menu-item{
+    height:52px;
+}
+.menu-item a {
+    color: #171515;
+    font-size: 20px;
+    text-transform: uppercase;
+    transition: .3s all ease-in;
+    padding: 10px 15px 8px 11px;
+    text-decoration: none;
+    height: 60px !important;
+    display: inline-block;
+    margin: -8px 0 0 0;
+    font-weight: 600;
+}
+.menu-item:hover a {
+    color: #fff !important;
+    background: #014397 !important;
+}
+.show{
+    z-index:2;
+    background: #009F73;
+    margin: 16px 0 0 -3px;
+    width:140px;
+    height: 372px !important;
+}
+.show > ul{
+    margin: 0 0 0 0px;
+    width: 176px;
+}
+
+.show > ul{
+    width:100% !important;
+}
+.show > ul > li{
+    margin: 0px 0 0 0;
+    width: 100% !important;
+    padding: 0 0 0 20px;
+    text-align: center;
+}
+.show > ul > li >a{
+    color: #fff !important;
+    width: 196px;
+    margin: 0px 0px 40px -20px
+}
+
+.show > ul > li:hover a{
+    background: #014397 !important;
+}
+.current-menu-item a{
+     background: #014397 !important;
+     color: #fff !important;
+}
+
+
+/* ---------------------------- Our Servicess css --------------------------- */
+.our_servicess_section {
+    width: 100%;
+    height: auto;
+    margin: 0 0 0 0;
+    background: #ccc;
+    padding: 103px 0;
+}
+.our_servicess_section .card-body {
+    background: #cccccc;
+}
+.our_servicess_section h2{
+    margin: 5px 0 74px 0 !important;
+    font-size: 42px !important;
+    font-weight: 700;
+    color: #010101;
+}
+
+.single_servicess{
+    margin:10px 0;
+}
+.single_servicess img{
+    width:100%;
+    height:auto;
+}
+.single_servicess h5{
+    text-align: center;
+    font-size: 22px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    border-bottom: 1px solid #ccc;
+    padding: 5px 0 14px 0;
+}
+.single_servicess p{
+    text-align: justify;
+    font-size: 16px;
+    margin: 26px 0 26px 0;
+}
+.single_servicess a{
+    background: #273149;
+    border: none;
+    padding: 12px 26px;
+    text-transform: uppercase;
+    text-align: center;
+    display: block;
+    color: #EE9C13;
+    transition: .3s all linear;
+}
+.single_servicess a:hover{
+    background: #314685;
+    color:#fff;
+}
+/* -------------------------- Youtube Promotion css ------------------------- */
+
+.youtube_pro_serviess {
+    background: #144963;
+    padding: 100px 0;
+    color: #fff;
+}
+.youtube_pro_serviess h2{
+    font-size: 32px;
+    border-bottom: 2px solid #cccccc;
+    padding: 10px 0 10px 0;
+    margin: 7px 0 32px 0px;
+    color: #fff;
+}
+.youtube_pro_serviess p{
+    font-size: 16px;
+    text-align: justify;
+    line-height: 36px;
+}
+.youtube_pro_serviess img{
+    width: 100%;
+    height: auto;
+    margin-top: 105px;
+}
+/* ------------------------- How to work section css ------------------------ */
+.how_it_work_section{
+    margin-top:80px;
+    margin-bottom: 80px;
+}
+.how_it_work_section h2{
+    font-size: 32px;
+    font-weight:700;
+    margin-bottom:25px;
+}
+.how_it_work_section p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 36px;
+}
+/* ------------------------------ Icon Aria css ----------------------------- */
+.icon_wrapper{
+    width:100%;
+    display:flex;
+    text-align: center;
+}
+.icon_wrapper .icon svg{
+    margin-bottom: 20px;
+    background: #95B494;
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    color: #574463;
+    padding: 24px 23px 24px 23px;
+}
+.icon_wrapper .icon h4{
+    font-size: 22px;
+    font-weight: 700;
+    color:#5A5959;
+}
+/* ------------------------------- Footer css ------------------------------- */
+#footer {
+    margin-top: 80px;
+    background: #0a3050;
+    width: 100%;
+    height: 118px;
+    padding: 30px 0;
+    color: #fff;
+}
+.footer_content p{
+    text-align: center;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+}
+#footer .developer_name a{
+	color:#8c7553;
+}
+/* --------------------- Footer Payment Support Section --------------------- */
+.footer_card_suport ul{
+    display: flex;
+    justify-content: center;
+}
+.footer_card_suport ul li{
+    list-style: none;
+    margin-right:10px;
+}
+.footer_card_suport ul li img{
+    width:100%;
+    height:100%;
+}
+/* ---------------------------- HOME PAGE CSS END --------------------------- */
+
+
+
+/* ------------------------ SubsCriver Page CSS Start ----------------------- */
+
+
+
+/* ---------------------------- CARD Top Part css --------------------------- */
+.page_title{
+    width: 100%;
+    background: #009F73;
+    margin: 50px 0 50px 0;
+    padding: 10px 15px;
+    color: #fff;
+    border-left: 6px solid #014397;
+}
+.page_title h2{
+    font-weight: 600;
+    font-size: 1.8rem;
+}
+.card_subscriber{
+    text-align: center;
+    width: 270px;
+    border-radius: 30px;
+}
+.card_subscriber .red_box{
+    background:#E90029;
+    color: rgb(255, 255, 255);
+    padding: 39px 4px 0 0;
+    height: 140px;
+    border-radius: 30px 30px 0px 0px;
+}
+.card_subscriber .red_box h2{
+    font-size: 17px;
+    font-weight: 700;
+}
+.card_subscriber .red_box p{
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 16px;
+}
+/* ------------------------------ Card Body Css ----------------------------- */
+.card_subscriber .card-body{
+    padding:32px;
+    text-align: left !important;
+}
+.card_subscriber .card-body ul li{
+    list-style-type: none;
+    line-height: 43px;
+}
+.card_subscriber .card-body ul li svg{
+    font-size: 14px;
+    color:#E90029;
+    margin-right:10px;
+}
+.doller_box{
+    padding:32px;
+    text-align: center;
+}
+.doller_box h3{
+    font-size: 40px;
+    font-weight: 600;
+    position: relative;
+}
+.doller_box h3 span{
+    font-size: 24px;
+    position: absolute;
+    margin: 1px 0 5px -17px;
+    font-weight: 600;
+}
+.card_subscriber .card-body a{
+    background: #E90029;
+    color: #FEF5F6;
+    margin: 15px auto;
+    width: 210px;
+}
+.card_subscriber .card-body a:hover{
+    background: rgb(90, 14, 28);
+}
+
+/* ------------------------ SubsCriver Page CSS End ----------------------- */
+
+
+/* -------------------------- Views Page Part css Start -------------------------- */
+.card_subscriber .blue_box{
+    background:#1500FF;
+    color: rgb(255, 255, 255);
+    padding: 39px 4px 0 0;
+    height: 140px;
+    border-radius: 30px 30px 0px 0px;
+}
+.card_subscriber .blue_box h2{
+    font-size: 17px;
+    font-weight: 700;
+}
+.card_subscriber .blue_box p{
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 16px;
+}
+.card_subscriber .view_body ul li svg{
+    font-size: 14px;
+    color:#1500FF;
+    margin-right:10px;
+}
+.card_subscriber .view_body a{
+    background: #1500FF;
+    color: #FEF5F6;
+    margin: 15px auto;
+    width: 210px;
+}
+.card_subscriber .view_body a:hover{
+    background: rgb(22, 15, 107);
+}
+
+/* --------------------------- Views Page Part css end --------------------------- */
+
+
+/* ------------------------ Watch time page css Start ----------------------- */
+.card_subscriber .green_box{
+    background:#099D21;
+    color: rgb(255, 255, 255);
+    padding: 39px 4px 0 0;
+    height: 140px;
+    border-radius: 30px 30px 0px 0px;
+}
+.card_subscriber .green_box h2{
+    font-size: 17px;
+    font-weight: 700;
+}
+.card_subscriber .green_box p{
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 16px;
+}
+.card_subscriber .watch_time_body ul li svg{
+    font-size: 14px;
+    color:#099D21;
+    margin-right:10px;
+}
+.card_subscriber .watch_time_body a{
+    background: #099D21;
+    color: #FEF5F6;
+    margin: 15px auto;
+    width: 210px;
+}
+.card_subscriber .watch_time_body a:hover{
+    background: rgb(10, 97, 24);
+}
+/* ------------------------- Watch time page css End ------------------------ */
+
+/* ------------------------- ALL Cart page Popular Product css Start ------------------------ */
+.popular{
+	margin-top:-30px;
+}
+.popular .popular_text h5{
+    background: #fff;
+    transform: rotate(38deg);
+    width: 128px;
+    margin: -22px 0px 26px 167px;
+    padding: 4px 0;
+    font-size: 15px;
+    font-weight: 600;
+}
+.red_box .popular_text h5{
+   color: #ff0000;
+}
+.blue_box .popular_text h5{
+   color: #1500FF;
+}
+.green_box .popular_text h5{
+   color: #099D21;
+}
+
+/* ------------------------- ALL Cart page Popular Product css End ------------------------ */
+
+/* --------------------------- Contact Page ---------------------------------*/
+.contact_form_wraper {
+    width: 850px;
+    margin: 50px auto;
+    padding: 50px;
+    border-radius: 10px;
+    background: #fff;
+}
+.form_header {
+    padding: 25px;
+    text-align: center;
+    font-size: 18px;
+    background-image: url(img/contact-form/images.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 305%;
+    width: 100%;
+    height: 152px;
+    border-radius: 10px 10px 0 0;
+    color: #fff;
+    margin-bottom: 60px;
+}
+.form_body {
+    padding: 22px;
+}
+.form_body .field_lebel {
+    color: #968E90;
+    text-align: right;
+    margin-right: 30px;
+    width: 88px;
+    display: block;
+    margin-bottom: 31px;
+}
+
+form input{
+    border: none;
+    border-bottom: 1px solid #ddd;
+    transform: translate(1px, -5px);
+    width: 534px;
+    padding-bottom: 15px;
+    outline: none;
+    margin-bottom: 20px;
+    padding: 7px;
+}
+
+form textarea{
+    border: none;
+    border-bottom: 1px solid #ddd;
+    transform: translate(1px, 6px);
+    width: 534px;
+    padding-bottom: 15px;
+    outline: none;
+    margin-bottom: 39px;
+}
+form input[type='submit']{
+    background: transparent;
+    border: 2px solid #59B747;
+    padding: 15px;
+    border-radius: 35px;
+    width: 145px;
+    font-size: 17px;
+    display: block;
+    outline:none;
+    cursor:pointer;
+    color:#59B747;
+    transition:0.5s;
+}
+form input[type='submit']:hover {
+    background: #59B747;
+     color: #fff;
+}
+.container_bg {
+    background: #ddd;
+    padding: 53px 0;
+}
+
+
+
+/*   * **********************404 page css ******************************************************* */
+
+#notfound {
+  position: relative;
+  height: 100vh;
+  background: #f6f6f6;
+}
+
+#notfound .notfound {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+.notfound {
+  max-width: 767px;
+  width: 100%;
+  line-height: 1.4;
+  padding: 110px 40px;
+  text-align: center;
+  background: #fff;
+  -webkit-box-shadow: 0 15px 15px -10px rgba(0, 0, 0, 0.1);
+          box-shadow: 0 15px 15px -10px rgba(0, 0, 0, 0.1);
+}
+
+.notfound .notfound-404 {
+  position: relative;
+  height: 180px;
+}
+
+.notfound .notfound-404 h1 {
+  font-family: 'Roboto', sans-serif;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  font-size: 165px;
+  font-weight: 700;
+  margin: 0px;
+  color: #262626;
+  text-transform: uppercase;
+}
+
+.notfound .notfound-404 h1>span {
+  color: #00b7ff;
+}
+
+.notfound h2 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 22px;
+  font-weight: 400;
+  text-transform: uppercase;
+  color: #151515;
+  margin-top: 0px;
+  margin-bottom: 25px;
+}
+
+.notfound .notfound-search {
+  position: relative;
+  max-width: 320px;
+  width: 100%;
+  margin: auto;
+}
+
+.notfound .notfound-search>input {
+  font-family: 'Roboto', sans-serif;
+  width: 100%;
+  height: 50px;
+  padding: 3px 65px 3px 30px;
+  color: #151515;
+  font-size: 16px;
+  background: transparent;
+  border: 2px solid #c5c5c5;
+  border-radius: 40px;
+  -webkit-transition: 0.2s all;
+  transition: 0.2s all;
+}
+
+.notfound .notfound-search>input:focus {
+  border-color: #00b7ff;
+}
+
+.notfound .notfound-search>button {
+  position: absolute;
+  right: 15px;
+  top: 5px;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  border: none;
+  background: transparent;
+  padding: 0;
+  cursor: pointer;
+}
+
+.notfound .notfound-search>button>span {
+  width: 15px;
+  height: 15px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%) rotate(-45deg);
+      -ms-transform: translate(-50%, -50%) rotate(-45deg);
+          transform: translate(-50%, -50%) rotate(-45deg);
+  margin-left: -3px;
+}
+
+.notfound .notfound-search>button> svg {
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    left: 14px;
+    top: 3px;
+    -webkit-transition: 0.2s all;
+    transition: 0.2s all;
+    border: none;
+    color: #c5c5c5;
+}
+
+
+.notfound .notfound-search>button:hover>svg {
+  color: #00b7ff;
+}
+
+@media only screen and (max-width: 767px) {
+  .notfound h2 {
+    font-size: 18px;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .notfound .notfound-404 h1 {
+    font-size: 141px;
+  }
+}
+
+/* ************************************Chcekout Page css******************************* */
+
+.checkout_page_body{
+	margin-top:50px;
+}
+
+.checkout_page_body .woocommerce form .form-row label {
+    line-height: 3;
+    width: 100%;
+    font-size: 21px;
+}
+.checkout_page_body h3 {
+    font-size: 2rem;
+    text-transform: uppercase;
+    background: #423030;
+    padding: 10px 0 10px 12px;
+    color: #fff;
+    margin: 40px 0 0 0;
+}
+.checkout_page_body .woocommerce-input-wrapper{
+	width:100%;
+}
+.checkout_page_body .woocommerce form .form-row input.input-text, .woocommerce form .form-row textarea {
+    box-sizing: border-box;
+    width: 100%;
+    margin: 0;
+    outline: 0;
+    line-height: normal;
+    border: 1px solid #ccc;
+}
+.checkout_page_body .woocommerce form .form-row .input-checkbox {
+    margin: 5px 8px 0 0;
+    width: 23px;
+}
+.checkout_page_body .select2-container--default .select2-selection--single {
+    padding: 5px 0 2px 0px;
+    height: 40px;
+}
+.checkout_page_body .select2-container--default .select2-selection--single .select2-selection__arrow {
+    top: 6px;
+}
+
+/* ************************************Cart Page css******************************* */
+
+.cart_page_body{
+	margin-top:50px;
+}
+.cart_page_body h2{
+    text-transform: uppercase;
+    background: #423030;
+    padding: 10px 0 11px 15px;
+    margin-bottom: 40px;
+    color: #fff;
+}
+.cart_page_body .woocommerce a.remove {
+    font-size: 30px;
+}
+.cart_page_body .product-name a {
+    text-decoration: none;
+    color: #000;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.cart_page_body thead {
+    background: #ccc;
+    text-transform: uppercase;
+    border: 2px solid red;
+}
+
+
+
+/* ***************** Woocomerce Page Css ***************** */
+.woocommerce_body{
+	margin-top:50px;
+}
+
+.woocommerce_body h1.page-title{
+    text-transform: uppercase;
+    background: #423030;
+    color: #fff;
+    padding: 14px 0 14px 13px;
+    font-size: 35px;
+    margin: 12px 0 36px 0;
+}
+
+.woocommerce_body h2{
+    color: #000;
+    font-size: 19px;
+    text-transform: uppercase;
+}
+
+.woocommerce ul.products li.product .button{
+ margin-top: 1em;
+    background: #E90029;
+    color: #fff;
+}
+.woocommerce ul.products li.product .button:hover{
+    background: green;
+    color: #fff;
+}
+.woocommerce .star-rating span::before {
+    color: #F8BE01;
+}
+.woocommerce #respond input#submit.alt, .woocommerce a.button.alt, .woocommerce button.button.alt, .woocommerce input.button.alt {
+    background: #E90029;
+    color: #fff;
+    -webkit-font-smoothing: antialiased;
+}
+.woocommerce #respond input#submit.alt:hover, .woocommerce a.button.alt:hover, .woocommerce button.button.alt:hover, .woocommerce input.button.alt:hover{
+    background: green;
+    color: #fff;
+}
+
+
+/* *************** Single Product Page css **************** */
+#wp-comment-cookies-consent {
+    width: 30px;
+    position: absolute;
+    margin: 12px 0 0 -33px;
+}
+
+
+
+.woocommerce a.added_to_cart {
+    padding-top: .5em;
+    display: inline-block;
+    background: #196b27;
+    padding: 7px 35px;
+    color: #fff;
+    font-weight: 700;
+    font-size: 16px;
+    margin: 10px 0 0 -141px;
+    position: absolute;
+}
+
+
+.woocommerce p.stars a{
+   color:#F8BE01;
+
+}
+
+
+/*  Complete Order Css */
+
+.woocommerce-notice.woocommerce-notice--success.woocommerce-thankyou-order-received{
+    font-size: 30px;
+    font-weight: 600;
+    color: #4f9e08;
+    margin: 220px 0;
+    text-align: center;
+}
+
+
+/**  Carosel Indicator **/
+.carousel-indicators {
+    z-index: 1;
+}
+
+
